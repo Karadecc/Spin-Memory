@@ -14,7 +14,7 @@ with NumPy/SciPy. The parameters are illustrative, not material data.
 
 ## Results
 
-### 1. Steady-state spectrum — `step01_spectrum.py`
+### 1. Steady-state spectrum `step01_spectrum.py`
 ![step 1](figures/step01_spectrum.png)
 
 Reflection from weak to strong coupling. At C = 1 the reflection vanishes: the
@@ -24,7 +24,7 @@ coupling the vacuum Rabi splitting is 2 g_ens (c); with a lossless resonator and
 Gaussian line the polaritons are barely damped ("cavity protection"). The shape of
 the inhomogeneous line matters (d).
 
-### 2. Pulse absorption in the time domain — `step02_pulse.py`
+### 2. Pulse absorption in the time domain `step02_pulse.py`
 ![step 2](figures/step02_pulse.png)
 
 The coupled equations are integrated with a discretised spin distribution. A slow
@@ -33,7 +33,7 @@ shorter than ~1/κ (c). Time-domain and frequency-domain results agree to 10⁻�
 A discretised spin line rephases by itself after 1/dx and produces spurious echoes
 (d) — the same mechanism as the atomic-frequency-comb memory protocol.
 
-### 3. Echo memory — `step03_echo.py`
+### 3. Echo memory `step03_echo.py`
 ![step 3](figures/step03_echo.png)
 
 After a π pulse the ensemble is inverted and the back-action of the spins changes
@@ -44,7 +44,7 @@ pulses, the resonator detuned during the first echo so that it is silenced, and 
 second echo emitted with the spins back in the ground state. The simulated
 efficiency follows η = [4C/(1+C)²]² exp(−2T/T₂) (c, d).
 
-### 4. Concentration / coherence trade-off — `step04_concentration.py`
+### 4. Concentration / coherence trade-off `step04_concentration.py`
 ![step 4](figures/step04_concentration.png)
 
 Toy scalings with the spin concentration n: g_ens² ∝ n, Γ_inh = Γ₀ + a·n (dipolar
