@@ -1,4 +1,4 @@
-# spin-memory
+# Spin-Memory
 
 **A toy model of a microwave quantum memory based on a spin ensemble coupled to a superconducting resonator.**
 
